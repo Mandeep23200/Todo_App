@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(229, 226, 222);
+}
+.container{
+    max-width:600px;
+    margin: 0  auto;
+    margin-top:50px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px green;
+}
+h1{
+    text-align: center;
+}
+#todoInput{
+    width : 75%;
+    padding: 10px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+
+}
+#addTodo{
+    padding: 10px 18px;
+    border: none;
+    background-color: rgb(0, 208, 255);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+
+}
+.todo-wrapper {
+    /* border: 1px solid #ccc; */
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+
+    
+    display: flex;
+    flex-direction: column;
+    max-width:600px;
+    margin: 0;
+    gap: 10px; /* Add space between li */
+
+}
+
+.todo-wrapper li {
+    list-style: none;
+    margin-bottom: 10px;
+  
+}
+
+.delete-btn, .edit-btn {
+    margin-left: 20px;
+    padding: 5px;
+    cursor: pointer;
+    float: right;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+  
+}
+
+.delete-btn {
+    background-color: rgb(220, 76, 76);
+    color: rgb(19, 18, 18);
+
+
+
+}
+
+.edit-btn {
+    background-color: rgb(226, 226, 111);
+    color: rgb(7, 7, 7);
+  
+}
